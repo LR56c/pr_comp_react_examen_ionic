@@ -1,0 +1,7 @@
+{
+  "name": "pr_comp_react_examen_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

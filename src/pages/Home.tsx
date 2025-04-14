@@ -1,6 +1,14 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import {
+  AddProduct
+}                                                               from "../components/add_product"
+import {
+  ProductsList
+}                                                               from "../components/products_list"
+import { Button } from "react-bootstrap"
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +24,9 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <Button>Bootstrap</Button>
+        <AddProduct></AddProduct>
+        <ProductsList></ProductsList>
       </IonContent>
     </IonPage>
   );

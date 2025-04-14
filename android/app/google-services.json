@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374932588094",
+    "project_id": "pr-comp-react-examen-ionic",
+    "storage_bucket": "pr-comp-react-examen-ionic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374932588094:android:600aac50afc8bebfc8336f",
+        "android_client_info": {
+          "package_name": "com.pr_comp_react_examen_ionic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_zeP7IZIz3mMQzH48QYx-5e6XeDSToUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey           : "AIzaSyA-GJv1G0mpnyMiciaQyaU1nboBZ__HH-k",
-  authDomain       : "pr-comp-react-examen.firebaseapp.com",
-  projectId        : "pr-comp-react-examen",
-  storageBucket    : "pr-comp-react-examen.firebasestorage.app",
-  messagingSenderId: "38602855682",
-  appId            : "1:38602855682:web:8cd7a9287511b3205e1e1b"
-}
+  apiKey: "AIzaSyCJuiyoEwjx8EZHeQIM0ljkKuP7yK5RpQw",
+  authDomain: "pr-comp-react-examen-ionic.firebaseapp.com",
+  projectId: "pr-comp-react-examen-ionic",
+  storageBucket: "pr-comp-react-examen-ionic.firebasestorage.app",
+  messagingSenderId: "374932588094",
+  appId: "1:374932588094:web:5208b4da696634d0c8336f"
+};
 
-import { initializeApp } from "firebase/app"
-
-export const firebase = initializeApp( firebaseConfig )
+// Initialize Firebase
+export const firebase = initializeApp(firebaseConfig);

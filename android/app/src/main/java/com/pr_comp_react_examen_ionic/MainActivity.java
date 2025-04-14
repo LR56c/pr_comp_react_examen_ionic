@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.pr_comp_react_examen_ionic;
 
 import com.getcapacitor.BridgeActivity;
 

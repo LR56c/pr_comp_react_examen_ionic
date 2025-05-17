@@ -41,10 +41,10 @@ const Home: React.FC = () => {
             <IonTitle size="large">Productos</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <div className="p-4 flex gap-4">
-          <ProductsList className="basis-1/2"></ProductsList>
+        <div className="p-4 flex gap-4 flex-col md:flex-row">
           <AddProduct className="basis-1/2"
                       onAddProduct={ handleAddProduct }></AddProduct>
+          <ProductsList className="basis-1/2"></ProductsList>
         </div>
       </IonContent>
     </IonPage>

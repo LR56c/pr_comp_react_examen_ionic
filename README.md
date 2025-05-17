@@ -1,6 +1,6 @@
 Proyecto para el ramo 'Programacion de Componentes' en el instituto IPLACEX
 
-Se implemento un listado de compras utilizando Firebase Firestore, Firebase Storage y Firebase Auth
+Se implemento un listado de productos utilizando Firebase Firestore, Firebase Storage y Firebase Auth
 
 ### Requisitos especificos
 - java 21
